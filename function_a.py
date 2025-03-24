@@ -5,7 +5,7 @@ def most_common_value(number_list):
     max_frequency = -1
     most_common_value = None
     for num in number_list:
-        if 
+        if frequency_index.get(num):
             frequency_index[num] += 1
         else:
             frequency_index[num] = 1
